@@ -1,0 +1,1129 @@
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 8
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 32
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 80
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:40:40[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:40:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:40:40[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:40:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 8
+13.12.2015 13:40:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:40:40[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:40:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 32
+13.12.2015 13:40:40[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:40:40[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:40:40[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:40:40[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:40:40[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 80
+13.12.2015 13:40:40[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:40:40[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage!
+13.12.2015 13:40:40[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:40:40[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage!
+13.12.2015 13:40:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 32
+13.12.2015 13:40:42[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 8 is released
+13.12.2015 13:40:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:40:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 23
+13.12.2015 13:40:42[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 32 is released
+13.12.2015 13:40:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:40:42[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 37
+13.12.2015 13:40:42[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 80 is released
+13.12.2015 13:40:42[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:40:45[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victorycan't land to the moorage!
+13.12.2015 13:40:45[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronskycan't land to the moorage!
+13.12.2015 13:40:47[main] DEBUG by.bsu.harbour.main.Main - main End of the application
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 98
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 93
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 42
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:41:57[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:41:57[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:41:57[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:41:57[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 98
+13.12.2015 13:41:57[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:41:57[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:41:57[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 93
+13.12.2015 13:41:57[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:41:57[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:41:57[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:41:57[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:41:57[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 42
+13.12.2015 13:41:57[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:41:57[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage!
+13.12.2015 13:41:57[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:41:57[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage!
+13.12.2015 13:41:59[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 1
+13.12.2015 13:41:59[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 98 is released
+13.12.2015 13:41:59[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:41:59[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 35
+13.12.2015 13:41:59[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 93 is released
+13.12.2015 13:41:59[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:41:59[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 36
+13.12.2015 13:41:59[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 42 is released
+13.12.2015 13:41:59[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:42:02[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for moorage!
+13.12.2015 13:42:02[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for moorage!
+13.12.2015 13:42:04[main] DEBUG by.bsu.harbour.main.Main - main End of the application
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 28
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 90
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 64
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:46:48[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:46:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:48[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:48[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:48[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:46:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:46:48[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:46:48[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:48[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:46:48[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:46:48[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:46:48[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:46:48[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 27
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 17
+13.12.2015 13:46:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 17
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:46:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:50[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 1
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 1
+13.12.2015 13:46:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 13
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:52[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:46:53[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:46:53[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:46:53[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for moorage!
+13.12.2015 13:46:53[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:46:53[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:46:53[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:46:53[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:46:53[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 15
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 15
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 9
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:46:54[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:54[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 14
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 24
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 26
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:56[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:56[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:46:58[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:46:58[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:46:58[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:46:58[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:46:58[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for moorage!
+13.12.2015 13:46:58[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:46:58[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:46:58[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 7
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:46:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 4
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 3
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:46:58[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 90
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:46:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 64
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 22
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:47:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 12
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 25
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:47:00[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 90
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:47:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 64
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 20
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:47:02[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 17
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 9
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:47:02[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 90
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:47:02[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 64
+13.12.2015 13:47:03[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:47:03[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:47:03[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:47:03[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:47:03[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for moorage!
+13.12.2015 13:47:03[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:47:03[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:47:03[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 1
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:47:04[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 26
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 9
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:47:04[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 90
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:47:04[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 64
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 10
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:47:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 28
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 10
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 32
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:47:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 90
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:47:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 64
+13.12.2015 13:47:08[main] DEBUG by.bsu.harbour.main.Main - main End of the application
+13.12.2015 13:47:08[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:47:08[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for moorage!
+13.12.2015 13:47:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 33
+13.12.2015 13:47:08[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 28 is released
+13.12.2015 13:47:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:47:08[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 3
+13.12.2015 13:47:08[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 90 is released
+13.12.2015 13:47:08[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:47:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 28
+13.12.2015 13:47:08[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 64 is released
+13.12.2015 13:47:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 18
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 30
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 89
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:48:17[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:48:17[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:17[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:17[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:17[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 18
+13.12.2015 13:48:17[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:17[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:17[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:17[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:17[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:48:17[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:17[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:17[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:17[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:48:17[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:48:17[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 2
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:19[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 18
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 24
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 9
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:19[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:19[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 6
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:21[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 18
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 3
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:21[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 26
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:21[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:22[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for moorage!
+13.12.2015 13:48:22[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:22[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for moorage!
+13.12.2015 13:48:22[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:48:22[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:22[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:48:22[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:48:22[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 4
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:23[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 18
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 5
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 9
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:23[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:23[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 30
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:25[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 18
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 34
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 2
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:25[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:25[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:27[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for moorage!
+13.12.2015 13:48:27[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:27[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 9
+13.12.2015 13:48:27[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:48:27[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:27[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for moorage!
+13.12.2015 13:48:27[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:48:27[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:27[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 18
+13.12.2015 13:48:27[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:27[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:48:27[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:48:27[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:27[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 19
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd unloaded 19
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:27[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:27[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 4
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:29[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 18
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 25
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd unloaded 12
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:29[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:29[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 2
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:31[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 18
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 11
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 30
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:31[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:31[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:32[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for moorage!
+13.12.2015 13:48:32[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:48:32[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:48:32[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:48:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:48:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:48:32[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:48:32[Thread-0] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice can't land to the moorage
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 15
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:33[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 18
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 28
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 4
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:33[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:33[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 39
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:48:35[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 18
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 7
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd unloaded 32
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:35[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:48:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 89
+13.12.2015 13:48:37[main] DEBUG by.bsu.harbour.main.Main - main End of the application
+13.12.2015 13:48:37[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for moorage!
+13.12.2015 13:48:37[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice is waiting for moorage!
+13.12.2015 13:48:37[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 28
+13.12.2015 13:48:37[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:48:37[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 18 is released
+13.12.2015 13:48:37[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 23
+13.12.2015 13:48:37[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:48:37[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:48:37[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd unloaded 10
+13.12.2015 13:48:37[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 13:48:37[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 89 is released
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 26
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 30
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 68
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:54:30[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:54:30[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:30[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:30[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:30[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:30[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:30[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:30[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:54:30[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:30[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:54:30[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:54:30[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 68
+13.12.2015 13:54:30[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:54:30[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:54:30[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 13:54:30[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:54:30[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:54:30[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 39
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 18
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:32[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 21
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:32[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:32[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 68
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 8
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 3
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 2
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:34[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:34[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 30
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:34[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 68
+13.12.2015 13:54:35[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:54:35[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:54:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:54:35[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:54:35[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 13:54:35[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:54:35[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:54:35[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 10
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 6
+13.12.2015 13:54:36[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 6
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:36[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:36[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 0
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 29
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:38[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 11
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:38[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:38[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:40[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:54:40[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:54:40[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:54:40[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 13:54:40[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:54:40[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:54:40[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:54:40[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 1
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:40[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 4
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:40[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 1
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:40[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 0
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 0
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:42[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 20
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 45
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 3
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 28
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:44[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:45[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:54:45[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:54:45[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:54:45[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 13:54:45[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 13:54:45[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:54:45[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:54:45[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 17
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 27
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 43
+13.12.2015 13:54:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:46[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 0
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 19
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 26
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 2
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:54:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 30
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:54:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 68
+13.12.2015 13:54:50[main] DEBUG by.bsu.harbour.main.Main - main End of the application
+13.12.2015 13:54:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 4
+13.12.2015 13:54:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:54:50[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 26 is released
+13.12.2015 13:54:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 5
+13.12.2015 13:54:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 13:54:50[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 30 is released
+13.12.2015 13:54:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 1
+13.12.2015 13:54:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:54:50[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 68 is released
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 40
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 67
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 19
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 13:56:06[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 13:56:06[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:56:06[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:56:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:56:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:56:06[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 40
+13.12.2015 13:56:06[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:56:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:56:06[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 67
+13.12.2015 13:56:06[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:56:06[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:56:06[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 19
+13.12.2015 13:56:06[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:56:06[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:56:06[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 13:56:06[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:56:06[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:56:06[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 36
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 40 is released
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:56:08[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 40
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 2
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 4
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 67 is released
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 19 is released
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:56:08[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 19
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:56:08[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 67
+13.12.2015 13:56:09[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:56:09[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:56:09[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:56:09[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:56:09[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:56:09[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 13:56:09[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:56:09[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 6
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 40 is released
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:56:10[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 40
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 0
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 19 is released
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 22
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 67 is released
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:56:10[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 19
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:56:10[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 67
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 1
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 40 is released
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:56:12[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:56:12[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 40
+13.12.2015 13:56:12[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:56:12[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:56:12[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:56:12[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 13:56:12[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:56:12[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:56:12[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 14
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 19 is released
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 10
+13.12.2015 13:56:12[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 19
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 67 is released
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:56:12[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 67
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 32
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 40 is released
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice before taking moorage
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Alice in lock
+13.12.2015 13:56:14[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 40
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 22
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 19 is released
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo before taking moorage
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo in lock
+13.12.2015 13:56:14[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 19
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 3
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 67 is released
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky before taking moorage
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky in lock
+13.12.2015 13:56:14[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 67
+13.12.2015 13:56:15[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory before taking moorage
+13.12.2015 13:56:15[Thread-2] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory in lock
+13.12.2015 13:56:15[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd before taking moorage
+13.12.2015 13:56:15[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 13:56:15[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 13:56:15[Thread-4] DEBUG by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd in lock
+13.12.2015 13:56:15[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 13:56:15[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 13:56:16[main] DEBUG by.bsu.harbour.main.Main - main End of the main application
+13.12.2015 13:56:16[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 1
+13.12.2015 13:56:16[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 13:56:16[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 40 is released
+13.12.2015 13:56:16[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 40
+13.12.2015 13:56:16[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 13:56:16[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 19 is released
+13.12.2015 13:56:16[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 43
+13.12.2015 13:56:16[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 13:56:16[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 67 is released
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 4
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 13
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 7
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 14:02:42[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 14:02:42[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 4
+13.12.2015 14:02:42[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 13
+13.12.2015 14:02:42[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 7
+13.12.2015 14:02:42[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:02:42[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:02:42[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:02:42[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:02:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 3
+13.12.2015 14:02:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:02:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 15
+13.12.2015 14:02:44[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:02:44[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 9
+13.12.2015 14:02:44[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 4
+13.12.2015 14:02:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:02:44[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:02:44[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 7 is released
+13.12.2015 14:02:44[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 13 is released
+13.12.2015 14:02:44[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 13
+13.12.2015 14:02:44[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 7
+13.12.2015 14:02:45[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:02:45[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:02:45[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:02:45[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:02:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 1
+13.12.2015 14:02:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:02:46[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:02:46[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 4
+13.12.2015 14:02:46[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 20
+13.12.2015 14:02:46[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:02:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 4
+13.12.2015 14:02:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:02:46[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 7 is released
+13.12.2015 14:02:46[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 13 is released
+13.12.2015 14:02:46[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 13
+13.12.2015 14:02:46[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 7
+13.12.2015 14:02:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 45
+13.12.2015 14:02:48[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:02:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:02:48[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:02:48[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 4
+13.12.2015 14:02:48[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:02:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 23
+13.12.2015 14:02:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:02:48[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 13 is released
+13.12.2015 14:02:48[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 16
+13.12.2015 14:02:48[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:02:48[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 7 is released
+13.12.2015 14:02:48[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 13
+13.12.2015 14:02:48[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 7
+13.12.2015 14:02:48[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:02:48[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:02:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 6
+13.12.2015 14:02:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:02:50[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:02:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 4
+13.12.2015 14:02:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 29
+13.12.2015 14:02:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:02:50[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 13 is released
+13.12.2015 14:02:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 0
+13.12.2015 14:02:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:02:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 13
+13.12.2015 14:02:50[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 7 is released
+13.12.2015 14:02:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 7
+13.12.2015 14:02:51[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:02:51[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:02:51[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:02:51[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:02:52[main] DEBUG by.bsu.harbour.main.Main - main End of the main application
+13.12.2015 14:02:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 30
+13.12.2015 14:02:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:02:52[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:02:52[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 8
+13.12.2015 14:02:52[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:02:52[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 13 is released
+13.12.2015 14:02:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 23
+13.12.2015 14:02:52[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:02:52[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 7 is released
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 57
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 4
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 24
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.main.Main - main JJJJJJJtrue
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 14:03:14[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 14:03:14[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 57
+13.12.2015 14:03:14[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 4
+13.12.2015 14:03:14[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 24
+13.12.2015 14:03:14[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:03:14[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:03:14[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:03:14[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:03:16[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 4
+13.12.2015 14:03:16[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:03:16[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 12
+13.12.2015 14:03:16[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 57 is released
+13.12.2015 14:03:16[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 13
+13.12.2015 14:03:16[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:03:16[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:03:16[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:03:16[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 24 is released
+13.12.2015 14:03:16[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 57
+13.12.2015 14:03:16[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 24
+13.12.2015 14:03:16[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 4
+13.12.2015 14:03:17[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:03:17[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:03:17[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:03:17[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:03:18[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 32
+13.12.2015 14:03:18[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:03:18[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 18
+13.12.2015 14:03:18[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:03:18[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 57 is released
+13.12.2015 14:03:18[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 5
+13.12.2015 14:03:18[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:03:18[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:03:18[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 24 is released
+13.12.2015 14:03:18[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 57
+13.12.2015 14:03:18[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 24
+13.12.2015 14:03:18[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 4
+13.12.2015 14:03:20[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:03:20[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:03:20[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:03:20[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:03:20[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 22
+13.12.2015 14:03:20[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:03:20[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 57 is released
+13.12.2015 14:03:20[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 1
+13.12.2015 14:03:20[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:03:20[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 24 is released
+13.12.2015 14:03:20[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 57
+13.12.2015 14:03:20[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 1
+13.12.2015 14:03:20[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:03:20[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:03:20[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 24
+13.12.2015 14:03:20[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 4
+13.12.2015 14:03:22[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 19
+13.12.2015 14:03:22[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:03:22[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 57 is released
+13.12.2015 14:03:22[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 29
+13.12.2015 14:03:22[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 57
+13.12.2015 14:03:22[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky loaded 46
+13.12.2015 14:03:22[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:03:22[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:03:22[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:03:22[Thread-3] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Vronsky occupied Moorage number 4
+13.12.2015 14:03:22[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 24 is released
+13.12.2015 14:03:22[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 24
+13.12.2015 14:03:23[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:03:23[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:03:23[Thread-1] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Waterloo can't land to the moorage
+13.12.2015 14:03:23[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo is waiting for a better time..
+13.12.2015 14:03:24[main] DEBUG by.bsu.harbour.main.Main - main End of the main application
+13.12.2015 14:03:24[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 18
+13.12.2015 14:03:24[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:03:24[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 57 is released
+13.12.2015 14:03:24[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky unloaded 4
+13.12.2015 14:03:24[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky left the moorage
+13.12.2015 14:03:24[Thread-3] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 4 is released
+13.12.2015 14:03:24[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory unloaded 14
+13.12.2015 14:03:24[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:03:24[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 24 is released
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 51
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 16
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Moorage - <init> Moorage was created with number: 48
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.singleton.Port - <init> Port was created
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 45 containers
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 40 containers
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 30 containers
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 10 containers
+13.12.2015 14:10:50[main] DEBUG by.bsu.harbour.entity.Ship - <init> Ship was created with 0 containers
+13.12.2015 14:10:50[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 51
+13.12.2015 14:10:50[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 16
+13.12.2015 14:10:50[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 48
+13.12.2015 14:10:50[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 14:10:50[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 14:10:50[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:10:50[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:10:52[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 42
+13.12.2015 14:10:52[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:10:52[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 51 is released
+13.12.2015 14:10:52[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 51
+13.12.2015 14:10:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 9
+13.12.2015 14:10:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:10:52[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 16 is released
+13.12.2015 14:10:52[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 16
+13.12.2015 14:10:52[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 13
+13.12.2015 14:10:52[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 14:10:52[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 48 is released
+13.12.2015 14:10:52[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 48
+13.12.2015 14:10:53[Thread-2] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Victory can't land to the moorage
+13.12.2015 14:10:53[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory is waiting for a better time..
+13.12.2015 14:10:53[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:10:53[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:10:54[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice loaded 4
+13.12.2015 14:10:54[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:10:54[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 51 is released
+13.12.2015 14:10:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 0
+13.12.2015 14:10:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:10:54[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 16 is released
+13.12.2015 14:10:54[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 51
+13.12.2015 14:10:54[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 24
+13.12.2015 14:10:54[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 14:10:54[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 48 is released
+13.12.2015 14:10:54[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 16
+13.12.2015 14:10:54[Thread-4] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Petrograd occupied Moorage number 48
+13.12.2015 14:10:56[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 4
+13.12.2015 14:10:56[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:10:56[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 51 is released
+13.12.2015 14:10:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 42
+13.12.2015 14:10:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:10:56[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 16 is released
+13.12.2015 14:10:56[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 51
+13.12.2015 14:10:56[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd loaded 9
+13.12.2015 14:10:56[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd left the moorage
+13.12.2015 14:10:56[Thread-4] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 48 is released
+13.12.2015 14:10:56[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 16
+13.12.2015 14:10:56[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 48
+13.12.2015 14:10:56[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:10:56[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:10:56[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:10:56[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:10:58[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 1
+13.12.2015 14:10:58[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:10:58[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 51 is released
+13.12.2015 14:10:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 9
+13.12.2015 14:10:58[Thread-0] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Alice occupied Moorage number 51
+13.12.2015 14:10:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:10:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo loaded 36
+13.12.2015 14:10:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:10:58[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 48 is released
+13.12.2015 14:10:58[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 16 is released
+13.12.2015 14:10:58[Thread-1] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Waterloo occupied Moorage number 16
+13.12.2015 14:10:58[Thread-2] DEBUG by.bsu.harbour.entity.Ship - setOccupiedMoorage ***Ship Victory occupied Moorage number 48
+13.12.2015 14:10:59[Thread-4] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Petrograd can't land to the moorage
+13.12.2015 14:10:59[Thread-4] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Petrograd is waiting for a better time..
+13.12.2015 14:10:59[Thread-3] ERROR by.bsu.harbour.singleton.Port - takeMoorage ***Ship Vronsky can't land to the moorage
+13.12.2015 14:10:59[Thread-3] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Vronsky is waiting for a better time..
+13.12.2015 14:11:00[main] DEBUG by.bsu.harbour.main.Main - main End of the main application
+13.12.2015 14:11:00[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice unloaded 0
+13.12.2015 14:11:00[Thread-0] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Alice left the moorage
+13.12.2015 14:11:00[Thread-0] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 51 is released
+13.12.2015 14:11:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo unloaded 29
+13.12.2015 14:11:00[Thread-1] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Waterloo left the moorage
+13.12.2015 14:11:00[Thread-1] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 16 is released
+13.12.2015 14:11:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory loaded 0
+13.12.2015 14:11:00[Thread-2] DEBUG by.bsu.harbour.entity.Ship - run ***Ship Victory left the moorage
+13.12.2015 14:11:00[Thread-2] DEBUG by.bsu.harbour.singleton.Port - releaseMoorage ***Moorage number 48 is released

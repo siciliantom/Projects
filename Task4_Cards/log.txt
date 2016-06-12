@@ -1,0 +1,4 @@
+10.01.2016 19:55:26 [main] DEBUG by.bsu.cards.main.Main - main data/cards.xml is valid.
+10.01.2016 19:55:59 [main] ERROR by.bsu.cards.main.Main - main validation data/cards.xml is not valid because The element type "tns:art-card" must be terminated by the matching end-tag "</tns:art-card>".
+10.01.2016 19:56:24 [main] ERROR by.bsu.cards.main.Main - main validation data/cards.xml is not valid because cvc-pattern-valid: Value '13324' is not facet-valid with respect to pattern '[a-zA-Z]{1}[0-9]{6}' for type '#AnonType_registryCard'.
+10.01.2016 19:56:32 [main] DEBUG by.bsu.cards.main.Main - main data/cards.xml is valid.

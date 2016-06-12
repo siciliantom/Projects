@@ -1,0 +1,3 @@
+INFO - Hi
+INFO - Hi
+25.11.2015 03:04:39 [main] INFO  by.bsu.tourism.main.Main - Hi

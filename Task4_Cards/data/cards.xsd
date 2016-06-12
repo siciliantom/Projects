@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/cards"
+        xmlns:tns="http://www.example.com/cards"
+        elementFormDefault="qualified">
+
+    <element name="old-cards">
+        <complexType>
+            <sequence>
+                <element ref="tns:card" minOccurs="2" maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Card">
+        <sequence>
+            <element name="theme" type="string" />
+            <element name="country" type="string" />
+            <element name="year" type="string" />
+            <element name="valuable" default="thematic">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="historical"></enumeration>
+                        <enumeration value="collection"></enumeration>
+                        <enumeration value="thematic"></enumeration>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="posted" type="boolean" default="true"/>
+        </sequence>
+        <attribute name="type" use="optional" default="ordinary" >
+            <simpleType>
+            <restriction base="string">
+                <enumeration value="congratulatory"></enumeration>
+                <enumeration value="advertising"></enumeration>
+                <enumeration value="ordinary"></enumeration>
+            </restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="registry" use="required" >
+            <simpleType>
+                <restriction base="ID">
+                    <pattern value="[a-zA-Z]{1}[0-9]{6}"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="Art-card">
+        <complexContent>
+            <extension base="tns:Card">
+                <sequence>
+                <element name="picture" type="tns:Picture" />
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Documentary-card">
+        <complexContent>
+            <extension base="tns:Card">
+                <sequence>
+                    <element name="photo" type="tns:Photo" />
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Picture">
+        <sequence>
+            <element name="name" type="string" />
+            <element name="author" type="string" />
+        </sequence>
+    </complexType>
+
+    <complexType name="Photo">
+        <sequence>
+            <element name="name" type="string" />
+            <element name="author" type="string" />
+            <element name="year-of-shot" type="string" />
+        </sequence>
+    </complexType>
+
+    <element name="card" type="tns:Card" abstract="true"></element>
+    <element name="art-card" type="tns:Art-card" substitutionGroup="tns:card"></element>
+    <element name="documentary-card" type="tns:Documentary-card" substitutionGroup="tns:card"></element>
+</schema>

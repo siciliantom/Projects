@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:old-cards xmlns:tns="http://www.example.com/cards"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.example.com/cards cards.xsd">
+    <tns:art-card type="congratulatory" registry="s121234">
+        <tns:theme>people</tns:theme>
+        <tns:country>England</tns:country>
+        <tns:year>2009</tns:year>
+        <tns:valuable>historical</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Soho</tns:name>
+            <tns:author>Johnson</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="advertising" registry="d113324">
+        <tns:theme>sport</tns:theme>
+        <tns:country>Switzerland</tns:country>
+        <tns:year>2010</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Sky</tns:name>
+            <tns:author>Federer</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="ordinary" registry="d223324">
+        <tns:theme>people</tns:theme>
+        <tns:country>France</tns:country>
+        <tns:year>2001</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>At work</tns:name>
+            <tns:author>Leffere</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="congratulatory" registry="f564324">
+        <tns:theme>nature</tns:theme>
+        <tns:country>Belgium</tns:country>
+        <tns:year>1995</tns:year>
+        <tns:valuable>thematic</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Forrest</tns:name>
+            <tns:author>Ferrer</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="ordinary" registry="g112233">
+        <tns:theme>nature</tns:theme>
+        <tns:country>Italy</tns:country>
+        <tns:year>1967</tns:year>
+        <tns:valuable>historical</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Mountains</tns:name>
+            <tns:author>Sciavony</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="congratulatory" registry="h113343">
+        <tns:theme>nature</tns:theme>
+        <tns:country>Russia</tns:country>
+        <tns:year>1917</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>false</tns:posted>
+        <tns:picture>
+            <tns:name>Crucial winter</tns:name>
+            <tns:author>Fedorov</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="congratulatory" registry="c123534">
+        <tns:theme>nature</tns:theme>
+        <tns:country>Belarus</tns:country>
+        <tns:year>1990</tns:year>
+        <tns:valuable>thematic</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Swamps</tns:name>
+            <tns:author>Miron</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="advertising" registry="z654322">
+        <tns:theme>religion</tns:theme>
+        <tns:country>Poland</tns:country>
+        <tns:year>2000</tns:year>
+        <tns:valuable>historical</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>Coming</tns:name>
+            <tns:author>Psheshick</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:art-card type="congratulatory" registry="x897888">
+        <tns:theme>sport</tns:theme>
+        <tns:country>Lithuania</tns:country>
+        <tns:year>2001</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:picture>
+            <tns:name>At the competition</tns:name>
+            <tns:author>Horrely</tns:author>
+        </tns:picture>
+    </tns:art-card>
+    <tns:documentary-card type="advertising" registry="c456378">
+        <tns:theme>war</tns:theme>
+        <tns:country>Germany</tns:country>
+        <tns:year>1980</tns:year>
+        <tns:valuable>thematic</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:photo>
+            <tns:name>The end</tns:name>
+            <tns:author>Ferhmann</tns:author>
+            <tns:year-of-shot>1945</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+    <tns:documentary-card type="congratulatory" registry="v987675">
+        <tns:theme>carnival</tns:theme>
+        <tns:country>USA</tns:country>
+        <tns:year>1982</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>false</tns:posted>
+        <tns:photo>
+            <tns:name>Colors</tns:name>
+            <tns:author>Freeman</tns:author>
+            <tns:year-of-shot>1982</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+    <tns:documentary-card type="congratulatory" registry="b198765">
+        <tns:theme>architecture</tns:theme>
+        <tns:country>Holland</tns:country>
+        <tns:year>1990</tns:year>
+        <tns:valuable>thematic</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:photo>
+            <tns:name>Taking rest</tns:name>
+            <tns:author>Dayk</tns:author>
+            <tns:year-of-shot>1980</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+    <tns:documentary-card type="congratulatory" registry="b987654">
+        <tns:theme>people</tns:theme>
+        <tns:country>Russia</tns:country>
+        <tns:year>1950</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:photo>
+            <tns:name>Gorgorod</tns:name>
+            <tns:author>Miron</tns:author>
+            <tns:year-of-shot>1947</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+    <tns:documentary-card type="ordinary" registry="n908796">
+        <tns:theme>people</tns:theme>
+        <tns:country>Korea</tns:country>
+        <tns:year>1993</tns:year>
+        <tns:valuable>historical</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:photo>
+            <tns:name>Meeting</tns:name>
+            <tns:author>Ken-Shee</tns:author>
+            <tns:year-of-shot>1990</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+    <tns:documentary-card type="ordinary" registry="m129908">
+        <tns:theme>people</tns:theme>
+        <tns:country>Japan</tns:country>
+        <tns:year>1900</tns:year>
+        <tns:valuable>collection</tns:valuable>
+        <tns:posted>true</tns:posted>
+        <tns:photo>
+            <tns:name>Restriction</tns:name>
+            <tns:author>Jucci</tns:author>
+            <tns:year-of-shot>1887</tns:year-of-shot>
+        </tns:photo>
+    </tns:documentary-card>
+</tns:old-cards>

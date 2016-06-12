@@ -1,0 +1,58 @@
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Cruise entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Excursion entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Excursion entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> MedicalTreatment entity was created
+01.12.2015 19:49:35 [main] DEBUG by.bsu.tourism.entity.TravelAgency - createAgency TravelAgency created
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Output of initial agency:
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by type: 
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by days: 
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Found offers by transport
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Found offers by meal
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Found offers by days
+01.12.2015 19:49:35 [main] INFO  by.bsu.tourism.main.Main - main Application ended05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Application started
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.Cruise - <init> Cruise entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.entity.MedicalTreatment - <init> MedicalTreatment entity was created
+05.12.2015 14:31:04 [main] DEBUG by.bsu.tourism.creator.TravelAgencyCreator - createAgency TravelAgency created
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Output of initial agency:
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by type: 
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by days: 
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Found offers by transport
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Found offers by meal
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Found offers by days
+05.12.2015 14:31:04 [main] INFO  by.bsu.tourism.main.Main - main Application ended
+19.12.2015 17:04:27 [main] INFO  by.bsu.tourism.main.Main - main Application started
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.Cruise - <init> Cruise entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.entity.MedicalTreatment - <init> MedicalTreatment entity was created
+19.12.2015 17:04:28 [main] DEBUG by.bsu.tourism.creator.TravelAgencyCreator - createAgency TravelAgency created
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Output of initial agency:
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by type: 
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by days: 
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Found offers by transport
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Found offers by meal
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Found offers by days
+19.12.2015 17:04:28 [main] INFO  by.bsu.tourism.main.Main - main Application ended
+22.12.2015 17:46:52 [main] INFO  by.bsu.tourism.main.Main - main Application started
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.Shopping - <init> Shopping entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.Cruise - <init> Cruise entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.Excursion - <init> Excursion entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.entity.MedicalTreatment - <init> MedicalTreatment entity was created
+22.12.2015 17:46:52 [main] DEBUG by.bsu.tourism.creator.TravelAgencyCreator - createAgency TravelAgency created
+22.12.2015 17:46:52 [main] INFO  by.bsu.tourism.main.Main - main Output of initial agency:
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by type: 
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Output of offers sorted by days: 
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Found offers by transport
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Found offers by meal
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Found offers by days
+22.12.2015 17:46:53 [main] INFO  by.bsu.tourism.main.Main - main Application ended

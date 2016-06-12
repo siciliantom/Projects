@@ -1,0 +1,935 @@
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.parser.TextParser - initialization ***File is read successfully 
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***Before parsing to paragraph
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Listing addedstartpackagec06;classWaterSource{privateStrings;WaterSource(){System.out.println("WaterSource()");s=newString("Constructed");}publicStringtoString(){returns;}}publicclassSprinklerSystem{privateStringvalve1,valve2,valve3,valve4;WaterSourcesource;inti;floatf;voidprint(){System.out.println("valve1="+valve1);System.out.println("valve2="+valve2);System.out.println("valve3="+valve3);System.out.println("valve4="+valve4);System.out.println("i="+i);System.out.println("f="+f);System.out.println("source="+source);}publicstaticvoidmain(String[]args){SprinklerSystemx=newSprinklerSystem();x.print();}}end
+
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***BEFORE END
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Whole text : startpackagec06;classWaterSource{privateStrings;WaterSource(){System.out.println("WaterSource()");s=newString("Constructed");}publicStringtoString(){returns;}}publicclassSprinklerSystem{privateStringvalve1,valve2,valve3,valve4;WaterSourcesource;inti;floatf;voidprint(){System.out.println("valve1="+valve1);System.out.println("valve2="+valve2);System.out.println("valve3="+valve3);System.out.println("valve4="+valve4);System.out.println("i="+i);System.out.println("f="+f);System.out.println("source="+source);}publicstaticvoidmain(String[]args){SprinklerSystemx=newSprinklerSystem();x.print();}}end
+
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Sorteded sentences:
+
+31.12.2015 16:44:46 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Swapped text: startpackagec06;classWaterSource{privateStrings;WaterSource(){System.out.println("WaterSource()");s=newString("Constructed");}publicStringtoString(){returns;}}publicclassSprinklerSystem{privateStringvalve1,valve2,valve3,valve4;WaterSourcesource;inti;floatf;voidprint(){System.out.println("valve1="+valve1);System.out.println("valve2="+valve2);System.out.println("valve3="+valve3);System.out.println("valve4="+valve4);System.out.println("i="+i);System.out.println("f="+f);System.out.println("source="+source);}publicstaticvoidmain(String[]args){SprinklerSystemx=newSprinklerSystem();x.print();}}end
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - initialization ***File is read successfully 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***Before parsing to paragraph
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph Until now, composition has been used frequently. You simply place object handles inside new classes. For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# Until now, composition has been used frequently.
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#Until
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite Until 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#now,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# now symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite now, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#composition
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite composition 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#been
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite been 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#used
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite used 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#frequently.
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# frequently symbol# . 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite frequently. 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# Until now, composition has been used frequently. 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# You simply place object handles inside new classes.
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#You
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite You 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#simply
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite simply 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#place
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite place 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#handles
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite handles 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#new
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite new 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#classes.
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# classes symbol# . 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite classes. 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# You simply place object handles inside new classes. 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#For
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite For 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#example,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# example symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite example, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#suppose
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite suppose 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#you’d
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite you’d 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#like
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite like 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#an
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite an 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#that
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite that 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#holds
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite holds 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#several
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite several 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#String
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite String 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#couple
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite couple 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#primitives
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite primitives 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#an
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite an 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#another
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite another 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class.
+*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# .
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#For
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite For 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#non-primitive
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite non-primitive 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#just
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite just 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#put
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite put 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#handles
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite handles 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#your
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite your 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#new
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite new 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#for
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite for 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#primitives
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite primitives 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#just
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite just 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#define
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite define 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#them
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite them 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#your
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite your 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class:
+*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# :
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class:
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Listing addedstart
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph One of the methods defined in WaterSource is special: toString(). You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# One of the methods defined in WaterSource is special: toString().
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#One
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite One 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#methods
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite methods 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#defined
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite defined 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#in
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite in 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#WaterSource
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite WaterSource 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#is
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite is 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#special:
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# special symbol# : 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite special: 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#toString().
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# toString() symbol# . 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite toString(). 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# One of the methods defined in WaterSource is special: toString(). 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#You
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite You 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#will
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite will 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#learn
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite learn 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#later
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite later 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#that
+every
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite that
+every 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#non-primitive
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite non-primitive 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#toString()
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite toString() 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#method,
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# method symbol# , 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite method, 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#it's
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite it's 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#called
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite called 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#in
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite in 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#special
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite special 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#situations
+when
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite situations
+when 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#compiler
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite compiler 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#wants
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite wants 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#String
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite String 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#but
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite but 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#it
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite it 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#got
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite got 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#one
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite one 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#these
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite these 
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects.*
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# .
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***BEFORE END
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Whole text : Until now, composition has been used frequently. You simply place object handles inside new classes. For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+start
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+One of the methods defined in WaterSource is special: toString(). You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Sorteded sentences:
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main Until now, composition has been used frequently. 
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main You simply place object handles inside new classes. 
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main One of the methods defined in WaterSource is special: toString(). 
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+
+31.12.2015 16:45:27 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Swapped text: Frequently now, composition has been used until. Classes simply place object handles inside new you. Class example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another for.
+Class the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your for:
+start
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+ToSTring() of the methods defined in WaterSource is special: one. Objects will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these you.
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - initialization ***File is read successfully 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***Before parsing to paragraph
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph Until now, composition has been used frequently. You simply place object handles inside new classes. For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# Until now, composition has been used frequently.
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#Until
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite Until 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#now,
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# now symbol# , 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite now, 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#composition
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite composition 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#been
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite been 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#used
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite used 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#frequently.
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# frequently symbol# . 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite frequently. 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# Until now, composition has been used frequently. 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# You simply place object handles inside new classes.
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#You
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite You 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#simply
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite simply 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#place
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite place 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#handles
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite handles 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#new
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite new 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#classes.
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# classes symbol# . 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite classes. 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# You simply place object handles inside new classes. 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+*
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#For
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite For 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#example,
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# example symbol# , 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite example, 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#suppose
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite suppose 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#you’d
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite you’d 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#like
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite like 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#an
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite an 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#that
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite that 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#holds
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite holds 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#several
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite several 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#String
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite String 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects,
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# , 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects, 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#couple
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite couple 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#primitives
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite primitives 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#an
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite an 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#another
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite another 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class.
+*
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# .
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class.
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+*
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#For
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite For 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#non-primitive
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite non-primitive 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects,
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# , 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects, 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#just
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite just 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#put
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite put 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#handles
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite handles 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#your
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite your 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#new
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite new 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class,
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# , 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class, 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#for
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite for 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#primitives
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite primitives 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#just
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite just 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#define
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite define 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#them
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite them 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#inside
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite inside 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#your
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite your 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#class:
+*
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# class symbol# :
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite class:
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Listing addedstart
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Before parsing to sentence, paragraph One of the methods defined in WaterSource is special: toString(). You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# One of the methods defined in WaterSource is special: toString().
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#One
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite One 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#methods
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite methods 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#defined
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite defined 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#in
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite in 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#WaterSource
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite WaterSource 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#is
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite is 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#special:
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# special symbol# : 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite special: 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#toString().
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# toString() symbol# . 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite toString(). 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# One of the methods defined in WaterSource is special: toString(). 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToSentense *** Before parsing to token, SENT# You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.*
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#You
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite You 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#will
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite will 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#learn
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite learn 
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#later
+31.12.2015 16:46:03 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite later 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#that
+every
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite that
+every 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#non-primitive
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite non-primitive 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#object
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite object 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#toString()
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite toString() 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#method,
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# method symbol# , 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite method, 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#and
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite and 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#it's
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite it's 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#called
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite called 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#in
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite in 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#special
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite special 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#situations
+when
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite situations
+when 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#the
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite the 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#compiler
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite compiler 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#wants
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite wants 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#a
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite a 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#String
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite String 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#but
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite but 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#it
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite it 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#has
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite has 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#got
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite got 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#one
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite one 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#of
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite of 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#these
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Some word added 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite these 
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKEN#objects.*
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToWord ***Word added# objects symbol# .
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENcomposite objects.
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToToken ***TokenList added TOKENLISTOFSENTENCE# You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parseToParagraph ***Paragraph added
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.parser.TextParser - parse ***BEFORE END
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Whole text : Until now, composition has been used frequently. You simply place object handles inside new classes. For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+start
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+One of the methods defined in WaterSource is special: toString(). You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Sorteded sentences:
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main Until now, composition has been used frequently. 
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main You simply place object handles inside new classes. 
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main One of the methods defined in WaterSource is special: toString(). 
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main For the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your class:
+
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main For example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another class.
+
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main You will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these objects.
+
+
+31.12.2015 16:46:04 [main] DEBUG src.by.bsu.parsing.main.CompositeRunner - main ***Swapped text: Frequently now, composition has been used until. Classes simply place object handles inside new you. Class example, suppose you’d like an object that holds several String objects, a couple of primitives and an object of another for.
+Class the non-primitive objects, just put handles inside your new class, and for the primitives just define them inside your for:
+start
+package c06;
+class WaterSource {
+ private String s;
+ WaterSource() {
+ System.out.println("WaterSource()");
+ s = new String("Constructed");
+ }
+ public String toString() { return s; }
+}
+public class SprinklerSystem {
+ private String valve1, valve2, valve3, valve4;
+ WaterSource source;
+ int i;
+ float f;
+ void print() {
+ System.out.println("valve1 = " + valve1);
+ System.out.println("valve2 = " + valve2);
+ System.out.println("valve3 = " + valve3);
+ System.out.println("valve4 = " + valve4);
+ System.out.println("i = " + i);
+ System.out.println("f = " + f);
+ System.out.println("source = " + source);
+ }
+ public static void main(String[] args) {
+ SprinklerSystem x = new SprinklerSystem();
+ x.print();
+ }
+}
+end
+ToSTring() of the methods defined in WaterSource is special: one. Objects will learn later that
+every non-primitive object has a toString() method, and it's called in special situations
+when the compiler wants a String but it has got one of these you.
+

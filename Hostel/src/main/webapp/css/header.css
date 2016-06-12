@@ -1,0 +1,72 @@
+#header {
+    background-color: black;
+    margin: 0;
+    border-bottom: 3px solid floralwhite;
+    height: 70px;
+}
+
+@font-face {
+    font-family: Verdana;
+    src: url(/font/Verdana.ttf);
+}
+
+#logo {
+    background: url(/images/stranger.png) no-repeat;
+    position: absolute;
+    width: 47px;
+    height: 45px;
+    left: 85px;
+    top: 10px;
+}
+
+.hostel_name {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    color: slategray;
+    font-size: 23pt;
+    text-shadow: black 1px 1px;
+    font-family: fantasy;
+}
+
+#role {
+    color: lightsalmon;
+    font-size: 15pt;
+    position: absolute;
+    right: 255px;
+    top: 30px;
+    text-shadow: black 1px 1px;
+    font-family: normal;
+    font-weight: 500;
+}
+
+.locale {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+#logout {
+    position: absolute;
+    right: 180px;
+    top: 30px
+}
+
+#data {
+    color: lightblue;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+}
+
+#welcome_name {
+    position: absolute;
+    color: slategray;
+    top: 20px;
+    font-size: 20pt;
+    text-align: center;
+    left: 550px;
+    text-shadow: black 1px 1px;
+    font-family: Verdana;
+    font-weight: 400;
+}
